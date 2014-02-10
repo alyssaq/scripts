@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 
-names=(
-  "RA" 
-  "RB" 
-  "RC" 
-  "RD"
-)
+declare -a names=('brown','punkt','wordnet')
+
 for name in ${names[@]} 
 do
   echo "Downloading $name"
